@@ -1,5 +1,5 @@
 # integer-compression
-JS bindings to C++ compression methods
+JS bindings to C++ compression library TurboPFor: Fastest Integer Compression ( https://github.com/powturbo/TurboPFor-Integer-Compression )
 
 ## Clone
 
@@ -24,5 +24,11 @@ node-gyp rebuild
 
 ## Run
 ```sh
-node addon.js
+node index.js
+```
+
+## NodeJS usage 
+
+```javascipt
+npm install node-int-compressor
 ```
